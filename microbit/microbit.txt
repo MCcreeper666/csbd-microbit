@@ -1,0 +1,25 @@
+//馬達 -> SIG, 3.3V, GND (p0)
+
+//水位
+S -> SIG (p0)
++ -> 3.3V (p0)
+- -> GND (p0)
+
+//OLED
+GND -> GND (p20)
+VCC -> 3.3V (p20)
+SCL -> SIG (p19)
+SDA -> SIG (p20)
+
+//光敏
+AO -> SIG (p0)
+GND -> GND (p0)
+VCC -> 3.3V (p0)
+
+//水泵
+IN -> SIG (p0)
+GND -> GND (p0)
+VCC -> 3.3V (p0)
+公共端 -> VIN (all)
+红线 -> 常闭
+黑线 -> GND (all)
